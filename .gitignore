@@ -1,3 +1,13 @@
+# Predators
+.vs
+TestResults
+TestPredators/bin
+TestPredators/obj
+PredatorsApp/bin
+PredatorsApp/obj
+PredatorsApp/Properties
+
+# Predators
 .vs
 TestResults
 TestPredators/bin
