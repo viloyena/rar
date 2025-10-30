@@ -26,7 +26,7 @@ namespace TestPredators
         [TestMethod]
         public void TestMethod_CatConstructBirthDate()
         {
-            Cat cat = new Cat(4, 2, new DateOnly(2019, 3, 9), "Mouse", "Tom); // input
+            Cat cat = new Cat(4, 2, new DateOnly(2019, 3, 9), "Mouse", "Tom"); // input
             DateOnly expected = new(2019, 3, 9);
             DateOnly actual = cat.BirthDate;
             Assert.AreEqual(expected, actual);
